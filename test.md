@@ -1,4 +1,5 @@
 # Hello world!
 
 say something...
-\nthis is a sub page!!
+
+this is a sub page!!
