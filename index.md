@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/kanaevan/kanaevan.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-May I have some test(https://kanaevan.github.io/kanaevan.github.io/test.md)
+May I have some [test](https://kanaevan.github.io/kanaevan.github.io/test.md)
 
 ### Markdown
 
