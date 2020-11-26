@@ -89,22 +89,22 @@ df['SK_ID_CURR'][df['SK_ID_CURR'] > 300000] = np.nan
  
 ## [Encoding Categorical Variables](https://datascience.stackexchange.com/questions/9443/when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor) 分类变量编码
 
-Method1：Label encoding
+### Method1：Label encoding
 assign each unique category in a categorical variable with an integer. No new columns are created.
 
-缺：内涵了顺序和间隔
+#### 缺：内涵了顺序和间隔
 
-优：相对节省空间
+#### 优：相对节省空间
 
 ![](DraggedImage.png)
 
-Method2：One-hot encoding（dummy variables）★better
+### Method2：One-hot encoding（dummy variables）★better
 
 Create a new column for each unique category in a categorical variable. Each observation recieves a 1 in the column for its corresponding category and a 0 in all other new columns.
 
-缺：变量level过多会占用大量内存  → 解决：[dimension reduction](https://www.analyticsvidhya.com/blog/2015/07/dimension-reduction-methods/) （[PCA](http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf)）
+#### 缺：变量level过多会占用大量内存  → 解决：[dimension reduction](https://www.analyticsvidhya.com/blog/2015/07/dimension-reduction-methods/) （[PCA](http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf)）
 
-优：The value assigned to each of the categories is random and does not reflect any inherent aspect of the category.(无内涵标签以外的任何信息)
+#### 优：The value assigned to each of the categories is random and does not reflect any inherent aspect of the category.(无内涵标签以外的任何信息)
 ![](DraggedImage-1.png)
 
 * For categorical variable `dtype == object` with 2 unique categories 对只有两个level的分类变量 * label encoding* —Scikit-Learn `LabelEncoder` 
