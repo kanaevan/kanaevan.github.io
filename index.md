@@ -32,7 +32,7 @@
   * [ROC & AUC](#roc-&-auc)
   * [Mean absolute error  — k-Fold Cross Validation](#mean-absolute-error----k-fold-cross-validation)
 
-<small><i><a href='http://kanaevan.github.io/markdown-toc/'></a></i></small>
+<small><i><a href='http://kanaevan.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
