@@ -3,7 +3,7 @@
   * [Glimpse of Data 数据预览](#glimpse-of-data-----)
   * [缺失值处理](#-----)
   * [Anomalies 异常值处理](#anomalies------)
-  * [[Encoding Categorical Variables](https://datascience.stackexchange.com/questions/9443/when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor) 分类变量编码](#-encoding-categorical-variables--https---datasciencestackexchangecom-questions-9443-when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor--------)
+  * [Encoding Categorical Variables 分类变量编码](#-encoding-categorical-variables--https---datasciencestackexchangecom-questions-9443-when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor--------)
     + [Method1：Label encoding](#method1-label-encoding)
     + [Method2：One-hot encoding（dummy variables）★better](#method2-one-hot-encoding-dummy-variables--better)
     + [一般处理方法](#------)
