@@ -1,6 +1,5 @@
-## Classification 问题的数据分析流程
-
-- [Data preparation](#Data preparation)
+ Classification 问题的数据分析流程
+- [Data preparation](#data-preparation)
   * [Glimpse of Data 数据预览](#glimpse-of-data-----)
   * [缺失值处理](#-----)
   * [Anomalies 异常值处理](#anomalies------)
@@ -33,7 +32,7 @@
   * [ROC & AUC](#roc---auc)
   * [Mean absolute error  — k-Fold Cross Validation](#mean-absolute-error----k-fold-cross-validation)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><i><a href='http://kanaevan.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
