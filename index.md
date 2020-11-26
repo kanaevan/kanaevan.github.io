@@ -109,7 +109,10 @@ Create a new column for each unique category in a categorical variable. Each obs
 
 * For categorical variable `dtype == object` with 2 unique categories 对只有两个level的分类变量 * label encoding* —Scikit-Learn `LabelEncoder` 
 
-* For categorical variable with more than 2 unique categories * one-hot encoding*—pandas `get_dummies(df)`
+* For categorical variable with more than 2 unique categories * one-hot encoding*—pandas `get_dummies(df)`.
+
+
+
 
 ```python
 # Create a label encoder object
