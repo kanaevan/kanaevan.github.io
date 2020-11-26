@@ -1,8 +1,5 @@
 Classification 问题的数据分析流程
- <script type="text/x-mathjax-config">
- MathJax.Hub.Config({tex2jax: {inlineMath:[['$latex','$']]}});
- </script>
- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 ```python
 # numpy and pandas for data manipulation
 import numpy as np
