@@ -1,6 +1,6 @@
 ## Classification 问题的数据分析流程
 
-- [Data preparation](#data-preparation)
+- [Data preparation](#Data preparation)
   * [Glimpse of Data 数据预览](#glimpse-of-data-----)
   * [缺失值处理](#-----)
   * [Anomalies 异常值处理](#anomalies------)
