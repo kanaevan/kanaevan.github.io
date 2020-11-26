@@ -1,22 +1,22 @@
  Classification 问题的数据分析流程
 - [Data preparation](#data-preparation)
-  * [Glimpse of Data 数据预览](#glimpse-of-data-----)
-  * [缺失值处理](#-----)
-  * [Anomalies 异常值处理](#anomalies------)
-  * [Encoding Categorical Variables 分类变量编码](#-encoding-categorical-variables--https---datasciencestackexchangecom-questions-9443-when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor--------)
+  * [Glimpse of Data](#Glimpse of Data 数据预览)
+  * [缺失值处理](#缺失值处理)
+  * [Anomalies](#Anomalies 异常值处理)
+  * [Encoding Categorical Variables](#[Encoding-Categorical-Variables](https://datascience.stackexchange.com/questions/9443/when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor)-分类变量编码)
     + [Method1：Label encoding](#method1-label-encoding)
     + [Method2：One-hot encoding（dummy variables）★better](#method2-one-hot-encoding-dummy-variables--better)
-    + [一般处理方法](#------)
-  * [Feature Scaling 标准化](#feature-scaling----)
-- [Exploratory Data Analysis EDA 探索性数据分析](#exploratory-data-analysis--eda---------)
-  * [自变量分布状况-x](#--------x)
-  * [因变量分布状况-y Column](#--------y-column)
+    + [一般处理方法](#一般处理方法)
+  * [Feature Scaling](#Feature-Scaling-标准化)
+- [Exploratory Data Analysis EDA](#Exploratory-Data-Analysis-(EDA)-探索性数据分析)
+  * [自变量分布状况-x](#自变量分布状况-x)
+  * [因变量分布状况-y Column](#因变量分布状况-y Column)
   * [Column Types](#column-types)
   * [Correlations](#correlations)
     + [Pearson correlation](#pearson-correlation)
     + [kernel density estimation plot ](#kernel-density-estimation-plot---kde--https---enwikipediaorg-wiki-kernel-density-estimation--)
-    + [分箱](#--)
-    + [Heatmap of correlations 热力图](#heatmap-of-correlations----)
+    + [分箱](#分箱)
+    + [Heatmap of correlations 热力图](#heatmap-of-correlations-热力图)
     + [Pairs Plot](#-pairs-plot--https---towardsdatasciencecom-visualizing-data-with-pair-plots-in-python-f228cf529166-)
 - [Feature Engineering](#feature-engineering)
   * [Polynomial features](#polynomial-features)
@@ -28,11 +28,11 @@
   * [Gradiente Boosting Classification](#gradiente-boosting-classification)
 - [Gradient boosting machine](#gradient-boosting-machine)
   * [LightGBM](#lightgbm)
-- [模型评价](#----)
-  * [ROC & AUC](#roc---auc)
+- [模型评价](#模型评价)
+  * [ROC & AUC](#roc-&-auc)
   * [Mean absolute error  — k-Fold Cross Validation](#mean-absolute-error----k-fold-cross-validation)
 
-<small><i><a href='http://kanaevan.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><i><a href='http://kanaevan.github.io/markdown-toc/'></a></i></small>
 
 
 
