@@ -117,10 +117,12 @@ Method2：One-hot encoding（dummy variables）★better
 Create a new column for each unique category in a categorical variable. Each observation recieves a 1 in the column for its corresponding category and a 0 in all other new columns.
 缺：变量level过多会占用大量内存  → 解决：[dimension reduction](https://www.analyticsvidhya.com/blog/2015/07/dimension-reduction-methods/) （[PCA](http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf)）
 优：The value assigned to each of the categories is random and does not reflect any inherent aspect of the category.(无内涵标签以外的任何信息)
-![](https://raw.githubusercontent.com/WillKoehrsen/Machine-Learning-Projects/master/one_hot_encoding.png)
+![](https://raw.githubusercontent.com/WillKoehrsen/Machine-Learning-Projects/master/one_hot_encoding.png).
 
 * For categorical variable `dtype == object` with 2 unique categories 对只有两个level的分类变量 * label encoding* —Scikit-Learn `LabelEncoder` 
-	* For categorical variable with more than 2 unique categories * one-hot encoding*—pandas `get_dummies(df)`
+
+* For categorical variable with more than 2 unique categories * one-hot encoding*—pandas `get_dummies(df)`.
+
 ```python
 # Create a label encoder object
 le = LabelEncoder()
