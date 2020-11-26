@@ -1,8 +1,8 @@
  Classification 问题的数据分析流程
 - [Data preparation](#data-preparation)
-  * [Glimpse of Data](#Glimpse of Data 数据预览)
+  * [Glimpse of Data](#Glimpse-of-Data-数据预览)
   * [缺失值处理](#缺失值处理)
-  * [Anomalies](#Anomalies 异常值处理)
+  * [Anomalies](#Anomalies-异常值处理)
   * [Encoding Categorical Variables](#[Encoding-Categorical-Variables](https://datascience.stackexchange.com/questions/9443/when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor)-分类变量编码)
     + [Method1：Label encoding](#method1-label-encoding)
     + [Method2：One-hot encoding（dummy variables）★better](#method2-one-hot-encoding-dummy-variables--better)
